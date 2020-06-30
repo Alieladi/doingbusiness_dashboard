@@ -45,7 +45,7 @@ def return_results(countrylist):
         countrylist = ['United States', 'China', 'Japan', 'Germany', \
             'United Kingdom', 'India', 'France', 'Brazil', 'Italy', 'Canada']"""
 
-    df = pd.read_csv("/data/doingbuisness2020.csv")
+    df = pd.read_csv("data/doingbuisness2020.csv")
 
     # get all countries and rankings
     rank_label = "Ease of doing business rank"
